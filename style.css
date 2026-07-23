@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #de8eed, #6fb1ca);
+}
+
+* {
+    font-family: 'Poppins';
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.buttons > button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: #c277cf;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.buttons > button:hover {
+    background-color: #ad64ba;
+}
+
+.buttons > button:active {
+    background-color: #a257b0;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#youScore {
+    color: darkgreen;
+}
+
+#compScore {
+    color: darkred;
+}
+
+.moves {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#youMove, #compMove {
+    font-weight: 400;
+}
+
+.message {
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+

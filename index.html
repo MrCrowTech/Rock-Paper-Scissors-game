@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors | SamDev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="buttons">
+            <button onclick="
+            game('Rock')
+            ">Rock</button>
+            <button onclick="
+            game('Paper')
+            ">Paper</button>
+            <button onclick="
+            game('Scissors')
+            ">Scissors</button>
+        </div>
+
+        <div class="moves">
+            <div>
+                You: <span id="youMove"></span>
+            </div>
+            <div>
+                Computer: <span id="compMove"></span>
+            </div>
+        </div>
+
+        <div class="message">
+            <span id="message"></span>
+        </div>
+        
+        <div class="scores">
+            <div>
+                You: <span id="youScore">0</span>
+            </div>
+            <div>
+                Computer: <span id="compScore">0</span>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
